@@ -1,0 +1,46 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Streamlit specific
+.streamlit/
+
+# Model downloads (potentially large files)
+u2net/
+u2netp/
+sam_vit_h_4b8939.pth
+
+# Local configuration
+config.toml
+
